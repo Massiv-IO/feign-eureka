@@ -1,6 +1,7 @@
-spring:
-  application:
-    name: HelloServer
+spring.application.name: HelloServer
+#spring:
+#  application:
+#    name: HelloServer
 
 server:
   port: 7111
