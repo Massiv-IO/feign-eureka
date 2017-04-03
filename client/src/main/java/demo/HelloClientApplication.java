@@ -22,15 +22,15 @@ import static org.springframework.web.bind.annotation.RequestMethod.GET;
 @RestController
 @EnableFeignClients
 public class HelloClientApplication {
-	@Autowired
-	HelloClient client;
-
+//	@Autowired
+//	HelloClient client;
+//
 	@Autowired
 	TimeSeriesAccessor client2;
 
 	@RequestMapping("/")
 	public String hello() {
-		return client.hello();
+//		return client.hello();
 	}
 
 	public static void main(String[] args) {
